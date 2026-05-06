@@ -1,0 +1,6 @@
+upload/*
+bitrix/cache/*
+bitrix/stack_cache/*
+bitrix/managed_cache/*
+bitrix/tmp/*
+*.log

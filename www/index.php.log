@@ -1,0 +1,1 @@
+[ERR_SIZE_CHECK] Extracted file '/var/www/bitrix/./bitrix/modules/ui/install/js/ui/text-editor/test/e2e/tests/html.js' have incorrect file size '5509' (7215 expected). Archive may be corrupted

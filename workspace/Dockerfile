@@ -41,7 +41,7 @@ ENV NODE_PATH $NVM_DIR/v$NODE_VERSION/lib/node_modules
 ENV PATH $NVM_DIR/versions/node/v$NODE_VERSION/bin:$PATH
 
 # install nodejs tools
-RUN npm install --global npm yarn pnpm@latest-10 @bitrix/cli
+RUN npm install --registry https://registry.npmmirror.com/ --global npm yarn pnpm@latest-10 @bitrix/cli
 
 # install zsh
 RUN sh -c "$(curl -L https://github.com/deluan/zsh-in-docker/releases/download/v1.2.1/zsh-in-docker.sh)" -- \
